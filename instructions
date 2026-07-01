@@ -17,3 +17,13 @@ pip3 install mcp[cli] fastmcp --break-system-packages
     }
   }
 }
+
+
+@mcp:cymbal-logistics What is the status of order CYM-EC-9921?
+
+Create a file named summary_task2.md in your project directory (/home/user/Documents/genai144-challenge/) that lists:
+- The registered MCP server name (cymbal-logistics)
+- The names of the three available tools registered on this server
+
+
+gcloud storage cp /home/user/Documents/genai144-challenge/summary_task2.md gs://qwiklabs-gcp-04-2383db4ff801-grading/
