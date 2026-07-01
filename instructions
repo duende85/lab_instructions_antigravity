@@ -25,5 +25,19 @@ Create a file named summary_task2.md in your project directory (/home/user/Docum
 - The registered MCP server name (cymbal-logistics)
 - The names of the three available tools registered on this server
 
+---
 
 gcloud storage cp /home/user/Documents/genai144-challenge/summary_task2.md gs://qwiklabs-gcp-04-2383db4ff801-grading/
+
+---
+
+Add rules to a GEMINI.md file in the root of my workspace. The rules must be configured as always_on and enforce the following code organization rules:
+1. All new python code files must start with a docstring at the top of the file explaining what the file does.
+2. All new python code files must start with a commented copyright statement for "Cymbal Direct" at the top of the file.
+3. All custom agent skills must be created in the root of the workspace under the .agent/skills/ directory.
+
+---
+
+/winter-storm-triage a customer's package (order CYM-EC-9921) is lost in the winter storm. Please find their customer ID and loyalty tier, and write a response to the customer.
+
+---
