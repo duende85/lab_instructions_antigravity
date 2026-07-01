@@ -67,4 +67,11 @@ Member: $10 credit, Priority Shipping upgrade
 Instruct it that the skill must require the agent to call the MCP tool issue_disruption_compensation to apply the refund.
 Tell it the skill must draft an empathetic customer response detailing the resolution.
 
+---------------
+curl -LsSf https://astral.sh/uv/install.sh | sh
+export PATH="$HOME/.local/bin:$PATH"
+uvx google-agents-cli setup
+---
+
+
 ---
