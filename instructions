@@ -73,5 +73,8 @@ export PATH="$HOME/.local/bin:$PATH"
 uvx google-agents-cli setup
 ---
 
+use its agents-cli skills to build the winter storm triage agent.
+Instruct it to name the project winter-storm-triage and place it inside the /home/user/Documents/genai144-challenge/ directory.
+Tell it to configure the agent to use the gemini-3.1-flash-lite model.
 
 ---
