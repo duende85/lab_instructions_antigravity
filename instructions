@@ -1,2 +1,19 @@
 Username: student-02-e0a86374d794@qwiklabs.net
 Password: sWL5gHMLE9fM 
+
+mkdir -p /home/user/Documents/genai144-challenge
+gcloud storage cp gs://qwiklabs-gcp-04-2383db4ff801-lab-scripts/cymbal_direct_mcp.py /home/user/Documents/genai144-challenge/
+cd /home/user/Documents/genai144-challenge
+
+pip3 install mcp[cli] fastmcp --break-system-packages
+
+{
+  "mcpServers": {
+    "cymbal-logistics": {
+      "command": "python3",
+      "args": [
+        "/home/user/Documents/genai144-challenge/cymbal_direct_mcp.py"
+      ]
+    }
+  }
+}
