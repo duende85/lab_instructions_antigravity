@@ -50,4 +50,8 @@ Create a file named summary_task3.md in your project directory (/home/user/Docum
 
 Once created, run a command to upload the resulting summary_task3.md to gs://qwiklabs-gcp-04-2383db4ff801-grading/
 
+
+
+Skill/rules verification failed: The custom agent skill name, the loyalty tier compensation matrix, and the resolution response for order CYM-EC-9921 are all incorrect. Please review the Task 3 instructions and the required compensation logic.
+
 ---
