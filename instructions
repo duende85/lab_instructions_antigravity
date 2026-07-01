@@ -88,4 +88,8 @@ Create a file named summary_task4.md in your project directory (/home/user/Docum
 Once created, use your terminal tools to upload the summary to gs://qwiklabs-gcp-04-2383db4ff801-grading/
 
 ---
+Return to the Antigravity agent chat panel and ask it to deploy the application. Rather than providing the exact prompt, you must instruct the agent yourself using the following constraints:
 
+Instruct it to deploy the winter-storm-triage agent to Agent Runtime.
+Tell it to deploy to the us-west1 region.
+Critically: Tell it to make sure it copies the local cymbal_direct_mcp.py file into the agent's app/ directory so it is packaged and bundled correctly for deployment.
