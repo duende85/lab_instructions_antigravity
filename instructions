@@ -55,3 +55,16 @@ Once created, run a command to upload the resulting summary_task3.md to gs://qwi
 Skill/rules verification failed: The custom agent skill name, the loyalty tier compensation matrix, and the resolution response for order CYM-EC-9921 are all incorrect. Please review the Task 3 instructions and the required compensation logic.
 
 ---
+
+create an agent skill named winter-storm-triage.
+Tell it the skill should dictate the standard operating procedures for customers whose packages are delayed due to severe winter storms.
+Instruct it that the skill must require the agent to use the MCP tools get_order_status and get_customer_loyalty_info to verify the order.
+Tell it the skill must apply the following compensation based on the customer's loyalty tier:
+Platinum: $100 credit, Next-Day Air shipping upgrade
+Gold: $50 credit, Next-Day Air shipping upgrade
+Silver: $25 credit, 3-Day Select shipping upgrade
+Member: $10 credit, Priority Shipping upgrade
+Instruct it that the skill must require the agent to call the MCP tool issue_disruption_compensation to apply the refund.
+Tell it the skill must draft an empathetic customer response detailing the resolution.
+
+---
